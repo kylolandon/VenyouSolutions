@@ -145,12 +145,13 @@ body {
 
 /* -------------------- Parallax gradient -------------------- */
 .bg-gradient {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background: radial-gradient(circle at 50% 25%, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.9) 60%);
-  transform: translateY(0);
-  will-change: transform;
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(circle at 50% 50%, rgb(54 54 54) 0%, rgb(0 0 0 / 90%) 60%);
+    transform: translateY(0);
+    will-change: transform;
+    margin-top: -500px;
 }
 
 /* -------------------- HERO -------------------- */
