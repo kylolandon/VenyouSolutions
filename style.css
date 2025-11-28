@@ -148,7 +148,7 @@ body {
     position: fixed;
     inset: 0;
     z-index: -1;
-    background: radial-gradient(circle at 50% 50%, rgb(54 54 54) 0%, rgb(0 0 0 / 90%) 60%);
+    background: radial-gradient(circle at 50% 50%, rgb(32 32 32) 0%, rgb(0 0 0 / 90%) 60%);
     transform: translateY(0);
     will-change: transform;
     margin-top: -500px;
@@ -456,7 +456,8 @@ body {
     text-align: center;
     padding: 20px 0 40px;
     font-size: 1rem;
-    color: #ffffffcc; /* soft white for dark backgrounds */
+    color: #ffffffcc; 
+   margin-bottom: -30px;
 }
 
 .contact-email a {
