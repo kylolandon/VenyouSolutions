@@ -371,12 +371,13 @@ body {
   border: none;
   background: rgba(255,255,255,0.06);
   color: #fff;
+  font-family: "Archivo", sans-serif;
 }
 
 /* submit button */
 .submit-btn {
   background: var(--blue);
-  color: #000;
+  color: #fff;
   padding: 12px;
   border-radius: 10px;
   width: 100%;
