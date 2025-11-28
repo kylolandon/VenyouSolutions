@@ -52,10 +52,10 @@ body {
 
 .logo-main {
   display: flex;
-  gap: 4px;
+  gap: 1px;
   align-items: baseline;
   font-weight: 800; /* ven + you at 800 */
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   letter-spacing: -0.7px;
   text-transform: none;
 }
@@ -65,12 +65,14 @@ body {
 
 .logo-sub {
   margin-top: 2px;
+  margin-left: 6px;
   font-weight: 200;
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   letter-spacing: 4px;
   color: var(--white-soft);
   text-transform: uppercase;
 }
+
 
 /* Desktop nav links */
 .nav-links {
