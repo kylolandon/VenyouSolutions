@@ -342,6 +342,6 @@ body {
   .mobile-menu-btn { display: flex; }
   .mobile-nav { right: 12px; left: 12px; top: 64px; min-width: auto; border-radius: 10px; }
   .logo { align-items: flex-start; }
-  .logo-sub { letter-spacing: 3px; }
+  .logo-sub {letter-spacing: 3px;margin-left: 6px;}
   .img-box { width: 100%; height: 180px; }
 }
