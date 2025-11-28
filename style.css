@@ -377,6 +377,70 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
+/* ================================
+   SERVICE AREA SECTION
+=================================== */
+
+.service-area {
+  position: relative;
+  background-color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Faded map background (Steinbach MB) */
+.service-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('roadmap-steinbach.png'); /* <-- place image in root */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;  
+  filter: grayscale(100%) contrast(80%);
+  pointer-events: none;
+}
+
+/* Text sits above the background */
+.service-area .container {
+  position: relative;
+  z-index: 2;
+}
+
+.service-area h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.service-area-subtitle {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+/* Partner logo placeholders */
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.partner-logo-box {
+  width: 150px;
+  height: 80px;
+  background: #f3f3f3;
+  border: 2px dashed #cccccc;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #777;
+}
 
 /* Footer */
 .footer{
