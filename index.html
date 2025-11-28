@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Venyou Solutions</title>
+
+  <!-- Archivo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo" id="logo-link" aria-label="Venyou Solutions home">
+        <span class="logo-main">
+          <span class="logo-ven">ven</span><span class="logo-you">you</span>
+        </span>
+        <span class="logo-sub">SOLUTIONS</span>
+      </a>
+
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+
+      <button id="menuBtn" class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span class="bar bar1"></span>
+        <span class="bar bar2"></span>
+        <span class="bar bar3"></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav (hidden by default) -->
+    <nav id="mobileNav" class="mobile-nav" aria-hidden="true">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- top anchor used by logo -->
+  <div id="top"></div>
+
+  <!-- BG PARALLAX GRADIENT -->
+  <div class="bg-gradient" aria-hidden="true"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero" role="region" aria-label="Hero">
+    <!-- three hero sets (stacked absolutely) -->
+    <div class="hero-set active">
+      <h1 class="hero-title">Facility Management &amp; Production Services</h1>
+      <p class="hero-sub">Smart solutions for landlords, venues, and organizations.</p>
+    </div>
+
+    <div class="hero-set">
+      <h1 class="hero-title">Your Space, Managed Better</h1>
+      <p class="hero-sub">We streamline operations so you can focus on growth.</p>
+    </div>
+
+    <div class="hero-set">
+      <h1 class="hero-title">Event-Ready at Any Scale</h1>
+      <p class="hero-sub">Professional AVL and coordination for every occasion.</p>
+    </div>
+
+    <a href="#contact" class="hero-cta">Get started</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section fade-in">
+    <h2 class="section-title">About Venyou Solutions</h2>
+
+    <p class="center-text">
+      We help landlords activate their spaces, streamline operations,
+      and improve how venues are rented, managed, and maintained.
+    </p>
+
+    <div class="image-row">
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+      <div class="img-box"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section fade-in">
+    <h2 class="section-title">What We Do</h2>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="img-box tall"></div>
+        <h3>Event Rental Management</h3>
+        <p>We connect groups, coordinators, and organizations to your space.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="img-box tall"></div>
+        <h3>Facility Oversight</h3>
+        <p>Daily operations, coordination, and proactive space management.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="img-box tall"></div>
+        <h3>AVL & Production Support</h3>
+        <p>Professional lighting, sound, and stage support for your venue.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section fade-in">
+    <h2 class="section-title">Let’s Talk About Your Space</h2>
+
+    <form class="contact-form" action="https://formspree.io/f/your-id-here" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Tell us about your space..." required></textarea>
+      <button type="submit" class="submit-btn">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    © 2025 Venyou Solutions
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
