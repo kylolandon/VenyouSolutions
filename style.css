@@ -449,6 +449,23 @@ body {
   color: #777;
 }
 
+/* Contact Email */
+.contact-email {
+    text-align: center;
+    padding: 20px 0 40px;
+    font-size: 1rem;
+    color: #ffffffcc; /* soft white for dark backgrounds */
+}
+
+.contact-email a {
+    color: #56bcf9;     /* your brand blue */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-email a:hover {
+    text-decoration: underline;
+}
 /* Footer */
 .footer{
     padding: 22px;
