@@ -322,6 +322,29 @@ body {
   text-align: center;
 }
 
+/* SERVICES — image wrapper */
+#services .img-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #111;
+}
+
+/* SERVICES — actual image */
+#services .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* SERVICES — hover zoom */
+#services .service-card:hover .img-box img {
+  transform: scale(1.06);
+  filter: brightness(1.08);
+}
+
 /* contact form */
 .contact-form {
   max-width: 520px;
