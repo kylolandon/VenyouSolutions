@@ -331,6 +331,15 @@ body {
   cursor: pointer;
 }
 
+/* Footer */
+.footer{
+    padding: 22px;
+    /* background-color: #171717; */
+    font-size: 12px;
+    text-align: center;
+    color: #a9a9a9;
+}
+
 /* -------------------- Fade-in on scroll (other sections) -------------------- */
 .fade-in { opacity: 0; transform: translateY(24px); transition: all 900ms ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
