@@ -111,8 +111,8 @@ body {
 
 .mobile-menu-btn .bar {
   display: block;
-  width: 26px;
-  height: 3px;
+  width: 24px;
+  height: 2px;
   background: #fff;
   margin: 4px 0;
   border-radius: 3px;
@@ -353,7 +353,7 @@ body {
 @media (max-width: 850px) {
   .nav-inner { padding: 12px 18px; }
   .nav-links { display: none; }
-  .mobile-menu-btn { display: flex; }
+  .mobile-menu-btn { display: block; }
   .mobile-nav { right: 12px; left: 12px; top: 64px; min-width: auto; border-radius: 10px; }
   .logo { align-items: flex-start; }
   .logo-sub {letter-spacing: 3px;margin-left: 6px;font-size: 0.43rem;}
