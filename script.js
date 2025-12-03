@@ -130,3 +130,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 120);
   }
 });
+
+
+// -------------------- Read More Button --------------------
+
+function toggleReadMore(btn) {
+    const box = btn.parentElement;
+    const content = box.querySelector('.read-more-content');
+    const preview = box.querySelector('.read-more-preview');
+
+    if (content.style.display === "none" || content.style.display === "") {
+      content.style.display = "inline";
+      btn.textContent = "Read less";
+    } else {
+      content.style.display = "none";
+      btn.textContent = "Read more";
+    }
+  }
