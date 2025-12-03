@@ -1,4 +1,4 @@
-// -------------------- Fade-in on scroll (for sections) --------------------
+// -------------------- Fade-in on scroll (for sections) -------------------- 
 const faders = document.querySelectorAll('.fade-in');
 const fadeObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
