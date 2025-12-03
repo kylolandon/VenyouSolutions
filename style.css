@@ -65,7 +65,7 @@ body {
 
 .logo-sub {
   margin-top: 2px;
-  margin-left: 6px;
+  margin-left: 5px;
   font-weight: 200;
   font-size: 0.6rem;
   letter-spacing: 4px;
@@ -501,6 +501,6 @@ body {
   .mobile-menu-btn { display: block; }
   .mobile-nav { right: 12px; left: 12px; top: 64px; min-width: auto; border-radius: 10px;margin-top: -10px; }
   .logo { align-items: flex-start; }
-  .logo-sub {letter-spacing: 3px;margin-left: 6px;font-size: 0.43rem;}
+  .logo-sub {letter-spacing: 3px;margin-left: 5px;font-size: 0.43rem;}
   .img-box { width: 100%; height: 180px; }
 }
