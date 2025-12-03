@@ -478,6 +478,18 @@ body {
     color: #a9a9a9;
 }
 
+/* Read More */
+.read-more-content {
+    display: none;
+    margin-top: 0.5rem;
+  }
+
+  .read-more-toggle {
+    cursor: pointer;
+    color: #0077ff;
+    font-weight: 600;
+  }
+
 /* -------------------- Fade-in on scroll (other sections) -------------------- */
 .fade-in { opacity: 0; transform: translateY(24px); transition: all 900ms ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
