@@ -300,6 +300,7 @@ body {
   border-radius: 18px;
   overflow: hidden;
   height: 200px;
+  display: inline-block;
 }
 
 .img-box.tall {
@@ -323,7 +324,7 @@ body {
 }
 
 .service-card {
-  width: 300px;
+  width: 360px;
   background: transparent;
   border-radius: 12px;
   padding: 12px;
